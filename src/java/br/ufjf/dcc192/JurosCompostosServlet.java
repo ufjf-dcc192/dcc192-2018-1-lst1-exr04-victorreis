@@ -90,10 +90,10 @@ public class JurosCompostosServlet extends HttpServlet {
             
             out.println(error);
 
-            out.println("Exemplo de BOM negócio: ");
+            out.println("Exemplo de MAU negócio: ");
             out.println("<a href='http://localhost:8080/dcc192-2018-1-lst1-exr04/?valor=2000&meses=10&taxaDeJuros=0.02'>"
                     + "http://localhost:8080/dcc192-2018-1-lst1-exr04/?valor=2000&meses=10&taxaDeJuros=0.02</a><br><br>");
-            out.println("Exemplo de MAU negócio: ");
+            out.println("Exemplo de BOM negócio: ");
             out.println("<a href='http://localhost:8080/dcc192-2018-1-lst1-exr04/?valor=2000&meses=10&taxaDeJuros=0.08'>"
                     + "http://localhost:8080/dcc192-2018-1-lst1-exr04/?valor=2000&meses=10&taxaDeJuros=0.08</a><br><br>");
 
